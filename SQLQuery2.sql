@@ -2,8 +2,7 @@ USE [Verivox]
 GO
 
 INSERT INTO [dbo].[b2b_infocontainer]
-           ([ID]
-           ,[Vorgangs_ID]
+           ([Vorgangs_ID]
            ,[Erstelldatum]
            ,[Sales_Assistant]
            ,[SAP_User_Sales_Assistant]
@@ -85,88 +84,89 @@ INSERT INTO [dbo].[b2b_infocontainer]
            ,[RV_EmailAdresse]
            ,[Quality_Checks_Completed])
      VALUES
-           (<ID, nchar(20),>
-           ,<Vorgangs_ID, int,>
-           ,<Erstelldatum, date,>
-           ,<Sales_Assistant, nchar(50),>
-           ,<SAP_User_Sales_Assistant, nchar(50),>
-           ,<Kundenbetreuer, nchar(50),>
-           ,<Vertrags_Klasse, nchar(50),>
-           ,<Sparte, nchar(10),>
-           ,<LE_Geschaeftpartnertyp, nchar(10),>
-           ,<LE_Kundennummer, int,>
-           ,<LE_Name_1_MaKo, nchar(100),>
-           ,<LE_Name_2_MaKo, nchar(100),>
-           ,<LE_Name_3_MaKo, nchar(100),>
-           ,<LE_Geschaeftspartner_Nr, int,>
-           ,<LE_Anrede_Schluessel, int,>
-           ,<LE_Name_1_ISU, nchar(100),>
-           ,<LE_Name_2_ISU, nchar(100),>
-           ,<LE_Name_3_ISU, nchar(100),>
-           ,<LE_Strasse, nchar(50),>
-           ,<LE_HNR, nchar(10),>
-           ,<LE_PLZ, int,>
-           ,<LE_Ort, nchar(50),>
-           ,<LE_Laenderschluessel_GPAdresse, nchar(10),>
-           ,<LE_IBAN, nchar(50),>
-           ,<RE_Geschaeftspartner_Nr, int,>
-           ,<RE_Geschaeftpartnertyp, nchar(10),>
-           ,<RE_Name_1_ISU, nchar(100),>
-           ,<RE_Name_2_ISU, nchar(100),>
-           ,<RE_Name_3_ISU, nchar(100),>
-           ,<RE_Strasse, nchar(50),>
-           ,<RE_HNR, nchar(10),>
-           ,<RE_PLZ, int,>
-           ,<RE_Ort, nchar(50),>
-           ,<RE_Laenderschluessel_GPAdresse, nchar(10),>
-           ,<LS_Referenznummer, nchar(10),>
-           ,<LS_Strasse, nchar(50),>
-           ,<LS_HNR, nchar(10),>
-           ,<LS_PLZ, int,>
-           ,<LS_Ort, nvarchar(100),>
-           ,<LS_MALO, nchar(50),>
-           ,<LS_Zaehlernummer, nchar(50),>
-           ,<LS_Zaehlerart, nchar(10),>
-           ,<LS_Zaehlver_fahren, nchar(10),>
-           ,<LS_Verbrauch_Pro_Jahr, float,>
-           ,<S_Kuendigung_Altlieferant, nchar(10),>
-           ,<S_Haushaltskunde, nchar(50),>
-           ,<S_Zahler_Netznutzungsentgelt, nchar(10),>
-           ,<S_Transaktionsgrund, nchar(50),>
-           ,<S_Netzbetreiber, nchar(50),>
-           ,<S_Netzbetreiber_SAP_Kuerzel, nchar(50),>
-           ,<S_Netzbetreiber_Name, nchar(100),>
-           ,<S_Branche_SAP, nchar(50),>
-           ,<V_Vertrags_Beginn, date,>
-           ,<V_Vertrags_Ende, date,>
-           ,<V_Gewunschter_Abrechnungs_Zeitpunkt, nchar(10),>
-           ,<V_Ablesezeitraum, nchar(50),>
-           ,<V_Zahlungsziel, nchar(10),>
-           ,<V_Lieferjahr_1, int,>
-           ,<V_Lieferjahr_2, int,>
-           ,<V_Lieferjahr_3, int,>
-           ,<V_Lieferjahr_4, int,>
-           ,<V_Lieferjahr_5, int,>
-           ,<P_Preisschluessel, nchar(10),>
-           ,<P_EP_HT_1_Jahr, nchar(10),>
-           ,<P_EP_HT_2_Jahr, nchar(10),>
-           ,<P_EP_HT_3_Jahr, nchar(10),>
-           ,<P_EP_HT_4_Jahr, nchar(10),>
-           ,<P_EP_HT_5_Jahr, nchar(10),>
-           ,<P_EP_NT_1_Jahr, nchar(10),>
-           ,<P_EP_NT_2_Jahr, nchar(10),>
-           ,<P_EP_NT_3_Jahr, nchar(10),>
-           ,<P_EP_NT_4_Jahr, nchar(10),>
-           ,<P_EP_NT_5_Jahr, nchar(10),>
-           ,<P_GrundpreisMonatlich, float,>
-           ,<P_GrundpreisJaehrlich, float,>
-           ,<P_Hoehe_FW_Bonus, nchar(10),>
-           ,<P_Zuschlag, float,>
-           ,<RV_ZUGFeRD, nchar(10),>
-           ,<RV_PDF_Rechnung, nchar(10),>
-           ,<RV_Duplikatsrechnung_Versenden, nchar(10),>
-           ,<RV_EmailAdresse, nchar(10),>
-           ,<Quality_Checks_Completed, nchar(10),>)
+           (
+                      COLUMNVALUE2,
+                      COLUMNVALUE3,
+                      COLUMNVALUE4,
+                      COLUMNVALUE5,
+                      COLUMNVALUE6,
+                      COLUMNVALUE7,
+                      COLUMNVALUE8,
+                      COLUMNVALUE9,
+                      COLUMNVALUE10,
+                      COLUMNVALUE11,
+                      COLUMNVALUE12,
+                      COLUMNVALUE13,
+                      COLUMNVALUE14,
+                      COLUMNVALUE15,
+                      COLUMNVALUE16,
+                      COLUMNVALUE17,
+                      COLUMNVALUE18,
+                      COLUMNVALUE19,
+                      COLUMNVALUE20,
+                      COLUMNVALUE21,
+                      COLUMNVALUE22,
+                      COLUMNVALUE23,
+                      COLUMNVALUE24,
+                      COLUMNVALUE25,
+                      COLUMNVALUE26,
+                      COLUMNVALUE27,
+                      COLUMNVALUE28,
+                      COLUMNVALUE29,
+                      COLUMNVALUE30,
+                      COLUMNVALUE31,
+                      COLUMNVALUE32,
+                      COLUMNVALUE33,
+                      COLUMNVALUE34,
+                      COLUMNVALUE35,
+                      COLUMNVALUE36,
+                      COLUMNVALUE37,
+                      COLUMNVALUE38,
+                      COLUMNVALUE39,
+                      COLUMNVALUE40,
+                      COLUMNVALUE41,
+                      COLUMNVALUE42,
+                      COLUMNVALUE43,
+                      COLUMNVALUE44,
+                      COLUMNVALUE45,
+                      COLUMNVALUE46,
+                      COLUMNVALUE47,
+                      COLUMNVALUE48,
+                      COLUMNVALUE49,
+                      COLUMNVALUE50,
+                      COLUMNVALUE51,
+                      COLUMNVALUE52,
+                      COLUMNVALUE53,
+                      COLUMNVALUE54,
+                      COLUMNVALUE55,
+                      COLUMNVALUE56,
+                      COLUMNVALUE57,
+                      COLUMNVALUE58,
+                      COLUMNVALUE59,
+                      COLUMNVALUE60,
+                      COLUMNVALUE61,
+                      COLUMNVALUE62,
+                      COLUMNVALUE63,
+                      COLUMNVALUE64,
+                      COLUMNVALUE65,
+                      COLUMNVALUE66,
+                      COLUMNVALUE67,
+                      COLUMNVALUE68,
+                      COLUMNVALUE69,
+                      COLUMNVALUE70,
+                      COLUMNVALUE71,
+                      COLUMNVALUE72,
+                      COLUMNVALUE73,
+                      COLUMNVALUE74,
+                      COLUMNVALUE75,
+                      COLUMNVALUE76,
+                      COLUMNVALUE77,
+                      COLUMNVALUE78,
+                      COLUMNVALUE79,
+                      COLUMNVALUE80,
+                      COLUMNVALUE81
+
+           )
 GO
 
 
