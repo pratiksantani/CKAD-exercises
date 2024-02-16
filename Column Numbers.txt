@@ -1,0 +1,82 @@
+Erstelldatum  ||||  1
+Sales-Assistant/\nErsteller*in der Datei  ||||  2
+SAP-User Sales-Assistant/\nErsteller*in  ||||  3
+Kundenbetreuer  ||||  4
+Vertrags-klasse  ||||  5
+Sparte\nS = Strom\nG = Gas  ||||  6
+LE_Geschäftpartnertyp\nPerson = 1\nOrganisation bzw. mehrere Personen = 2  ||||  7
+LE_Kundennummer (bei bisherigem Lieferant)  ||||  8
+LE_Name 1 für die MaKo\nBei Personen = Nachname  ||||  9
+LE_Name 2 für die MaKo\nBei Personen = Vorname  ||||  10
+LE_Name 3 für die MaKo  ||||  11
+LE_Geschäftspartner-Nr.  ||||  12
+LE_Anrede-Schlüssel\nHerr = 3\nFrau = 2  ||||  13
+LE_Name 1 für unser IS-U\nBei Personen = Nachname  ||||  14
+LE_Name 2 für unser IS-U\nBei Personen = Vorname  ||||  15
+LE_Name 3 für unser IS-U  ||||  16
+LE_Straße  ||||  17
+LE_HNR  ||||  18
+LE_PLZ  ||||  19
+LE_Ort  ||||  20
+LE_Länderschlüssel GP-Adresse\n(siehe Tabellenblatt \"Länderschlüssel\")  ||||  21
+IBAN  ||||  22
+RE_Geschäftspartner-Nr.  ||||  23
+RE_Geschäftpartnertyp\nPerson = 1\nOrganisation bzw. mehrere Personen = 2  ||||  24
+RE_Name 1 für unser IS-U\nBei Personen = Nachname  ||||  25
+RE_Name 2 für unser IS-U\nBei Personen = Vorname  ||||  26
+RE_Name 3 für unser IS-U  ||||  27
+RE_Straße  ||||  28
+RE_HNR  ||||  29
+RE_PLZ  ||||  30
+RE_Ort  ||||  31
+RE_Länderschlüssel GP-Adresse\n(siehe Tabellenblatt \"Länderschlüssel\")  ||||  32
+Referenznummer  ||||  33
+LS_Straße  ||||  34
+LS_HNR  ||||  35
+LS_PLZ  ||||  36
+LS_Ort  ||||  37
+MALO  ||||  38
+Zählernummer  ||||  39
+Zählerart  ||||  40
+Zählver-fahren  ||||  41
+Verbrauch\npro Jahr in kWh  ||||  42
+Kündigung Altlieferant  ||||  43
+Haushaltskunde (gem. EnWG)  ||||  44
+Zahler Netznutzungsentgelt  ||||  45
+Transaktionsgrund  ||||  46
+Netzbetreiber \nBDEW- / ILN-Code  ||||  47
+Netzbetreiber SAP Kürzel  ||||  48
+Netzbetreiber Name  ||||  49
+Branche SAP  ||||  50
+Vertrags-beginn  ||||  51
+Vertrags-\nende  ||||  52
+gewünschter Abrechnungs-zeitpunkt (MMTT)  ||||  53
+Ablesezeitraum (Turnusintervall)  ||||  54
+Zahlungsziel\n(siehe Tabellenblatt \"Zahlungsziel\")  ||||  55
+Lieferjahr 1  ||||  56
+Lieferjahr 2  ||||  57
+Lieferjahr 3  ||||  58
+Lieferjahr 4  ||||  59
+Lieferjahr 5  ||||  60
+Preisschlüssel  ||||  61
+EP HT 1. Jahr\nin ct./kWh  ||||  62
+EP HT 2. Jahr\nin ct./kWh  ||||  63
+EP HT 3. Jahr\nin ct./kWh  ||||  64
+EP HT 4. Jahr\nin ct./kWh  ||||  65
+EP HT 5. Jahr\nin ct./kWh  ||||  66
+EP NT 1. Jahr\nin ct./kWh  ||||  67
+EP NT 2. Jahr\nin ct./kWh  ||||  68
+EP NT 3. Jahr\nin ct./kWh  ||||  69
+EP NT 4. Jahr\nin ct./kWh  ||||  70
+EP NT 5. Jahr\nin ct./kWh  ||||  71
+Grundpreis monatlich in €  ||||  72
+Grundpreis jährlich in €  ||||  73
+Höhe FW Bonus  ||||  74
+Zuschlag Ökostrom/-gas\nin ct./kWh  ||||  75
+ZUGFeRD  ||||  76
+PDF-Rechnung  ||||  77
+Duplikatsrechnung versenden?  ||||  78
+E-Mail Adresse  ||||  79
+Qualitätscheck durchgeführt  ||||  80
+File Name  ||||  81
+
